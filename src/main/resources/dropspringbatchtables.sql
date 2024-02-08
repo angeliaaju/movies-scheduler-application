@@ -1,0 +1,31 @@
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_STEP_EXECUTION_SEQ]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_STEP_EXECUTION_SEQ]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_STEP_EXECUTION_CONTEXT]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_STEP_EXECUTION_CONTEXT]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_SEQ]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_SEQ]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_STEP_EXECUTION]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_STEP_EXECUTION]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_EXECUTION_SEQ]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_EXECUTION_SEQ]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_EXECUTION_PARAMS]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_EXECUTION_PARAMS]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_EXECUTION_CONTEXT]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_EXECUTION_CONTEXT]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_EXECUTION]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_EXECUTION]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[BATCH_JOB_INSTANCE]') AND type in (N'U'))
+DROP TABLE [dbo].[BATCH_JOB_INSTANCE]
+GO
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[movies]') AND type in (N'U'))
+DROP TABLE [dbo].[movies]
+GO
+
