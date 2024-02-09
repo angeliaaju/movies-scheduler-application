@@ -22,7 +22,7 @@ import com.movie.aggregator.common.ImageUtils;
 
 
 @Entity
-@Table(name = "movies")
+@Table(name = "movie")
 public class Movies {
 	
 	private static final String TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
